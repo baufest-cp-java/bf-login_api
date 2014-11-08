@@ -1,0 +1,9 @@
+@(message: String)
+
+@main("Welcome to Play") {
+	<form action="@routes.LoginController.authenticate()" method="POST">
+		<input type="text" name="username"/>
+		<input type="password" name="password" />
+		<input type="submit" value="Login"/>
+	</form>
+}

@@ -1,0 +1,1 @@
+web: target/universal/stage/bin/bf-login -Dhttp.port=${PORT} -Devolutionplugin=disabled -Ddb.login.driver=org.postgresql.Driver -Ddb.login.url=${DATABASE_URL}
